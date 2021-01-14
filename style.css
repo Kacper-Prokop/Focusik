@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+
 
 /*NAWIGACJA*/
 
@@ -68,7 +70,8 @@ header {
 
 }
 
-h1 {
+header h1 {
+
     display: inline-block;
     box-sizing: border-box;
     height: 100%;
@@ -83,11 +86,145 @@ h1 {
 
 }
 
-h1:hover {
+header h1:hover {
 
     background-color: rgba(0, 0, 0, 0.75);
     color: white;
 
 }
 
-header:hover {}
+/*KONIEC HEADER*/
+
+
+
+
+/*     MAIN    */
+
+main {
+    height: 60vh;
+    width: auto;
+
+}
+
+div.menu {
+
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    border-bottom: 2px solid black;
+
+    margin: 15px;
+
+    padding: 10px;
+
+}
+
+.wheels {
+    display: inline-block;
+
+    text-align: center;
+
+    margin-left: 20%;
+    background-color: #f7f1f1;
+    height: 50vh;
+    width: 20vw;
+    background-image: url(wheel-rim-254714_1920.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    background-position: 40% 50%;
+    border: 2 solid black;
+    border-radius: 100px;
+
+
+}
+
+.parts {
+    display: inline-block;
+    background-image: url(cz%C4%99sci.png);
+    height: 50vh;
+    width: 18vw;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 20%;
+
+    background-position: 50% 50%
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.panel {
+    width: 350px;
+    height: 400px;
+    margin: 10px 10px;
+}
+
+.zdjecie {
+    width: 300px;
+    height: 350px;
+}
+
+.zdjecie img {
+    width: 340px;
+    height: auto;
+    margin: 5px 5px;
+
+
+}
+
+.btn5 {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 26px;
+    font-family: arial;
+    color: black;
+    border: 2px solid black;
+    border-radius: 100px;
+    padding: 10px 20px;
+    margin: 2% 10%;
+    transition: 0.3s
+}
+
+.btn5:hover {
+    background-color: black;
+    color: white;
+    font-size: 29px;
+}
+
+
+.foter {
+    height: 30vh;
+    background-color: black;
+    margin-top: 15%;
+}
+
+.foter h1 {
+    color: white;
+    margin: 20px 20px;
+    padding: 18px;
+}
+
+.stopka ul li a {
+    margin: 0;
+    padding: 5px;
+    color: white;
+    display: block;
+
+    text-align: left;
+
+    margin-left: 1%;
+    margin-bottom: 0;
+
+
+
+
+
+}
+
+.stopka ul li a:hover {
+    text-decoration: underline;
+}
