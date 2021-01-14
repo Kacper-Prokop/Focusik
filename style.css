@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*NAWIGACJA*/
+
+nav {
+    display: inline-block;
+    /*    background-color: black;*/
+    width: 100%;
+    text-align: right;
+}
+
+nav a {
+
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: right;
+    font-size: 16px;
+    margin: 25px 4%;
+    color: black;
+    letter-spacing: 2px;
+
+}
+
+.btn1:hover,
+.btn2:hover,
+.btn3:hover {
+    padding: 5px 0;
+    border-bottom: 2px solid black;
+}
+
+
+
+
+.btn4 {
+    margin-right: 10%;
+    margin-left: 5%;
+    border: 2px solid black;
+    padding: 10px;
+    transition: 0.3s;
+}
+
+.btn4:hover {
+    background-color: black;
+    color: white;
+}
+
+
+
+/*HEADER*/
+
+header {
+    height: 50vh;
+    background-color: black;
+    background-image: url(photoofcarfordfocus.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 60% 75%;
+    transition: 0.9s;
+
+
+
+
+}
+
+h1 {
+    display: inline-block;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+    text-align: center;
+    line-height: 50vh;
+    color: rgba(255, 255, 255, 0);
+    font-size: 100px;
+    transition: .9s;
+
+
+}
+
+h1:hover {
+
+    background-color: rgba(0, 0, 0, 0.75);
+    color: white;
+
+}
+
+header:hover {}
